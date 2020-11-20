@@ -1,5 +1,1 @@
-# JACK
-JACK
-
-#ALGOKED
-ALGOKER
+# Black
