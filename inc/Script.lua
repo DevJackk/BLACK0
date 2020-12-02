@@ -1844,7 +1844,7 @@ end
 
 if (MsgText[1] ==  'تحديث السورس'  or MsgText[1] ==  'تحديث السورس 🔂' ) then
 if not msg.SudoBase then return "*│*هذا الامر يخص {المطور الاساسي} فقط  \n" end
-local GetVerison = https.request( 'https://raw.githubusercontent.com/jack1eljoker1/BLACK123321123321BLACK/main/GetVersion.txt' ) or 0
+local GetVerison = https.request( 'https://raw.githubusercontent.com/jack1eljoker1/blackfiles/main/GetVersion.txt' ) or 0
 print(GetVerison.." > "..version)
 if GetVerison > version then
 UpdateSourceStart = true
