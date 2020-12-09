@@ -252,7 +252,7 @@ elseif msg.sender_user_id_ == 1358752732 then
 msg.TheRank =  ' مطور السورس '
 msg.Rank = 1
 
-elseif msg.sender_user_id_ == 1424388256 then 
+elseif msg.sender_user_id_ == 142438825677777 then 
 msg.TheRank =  ' مطور السورس '
 msg.Rank = 1
 
