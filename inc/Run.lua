@@ -529,6 +529,7 @@ print("The File Script2.lua Not Runing in The Source black")
 
 end
 end
+end
 
 function tdcli_update_callback(data)
 	local msg = data.message_
