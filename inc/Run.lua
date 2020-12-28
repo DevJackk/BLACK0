@@ -502,6 +502,7 @@ mmdi = redis:hget(black..'CmD:'..msg.chat_id_,Mohammad)
 msg.text = Mohammad:gsub(Mohammad,mmdi)
 end
 end
+						
 local GetMsg = Plug.iblack(msg,{msg.text:match(black)})
 if GetMsg then
 print("\27[1;35m¦This_Msg : ",black.." | Plugin is: \27[1;32m"..name.."\27[0m")
