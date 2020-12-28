@@ -87,7 +87,6 @@ url = url..'&parse_mode=HTML'
 end
 return https.request(url)
 end
-end
 
 
 
