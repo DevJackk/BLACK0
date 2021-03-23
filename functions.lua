@@ -641,12 +641,12 @@ if UserID == our_id then
 var = 'هذا البوت' 
 elseif  UserID == SUDO_ID then
 var = 'مطور اساسي' 
-elseif  UserID == 111111122222223333 then
+elseif  UserID == 1317966118 then
 var =  'الجوكر ياهه'
 elseif  UserID == 1424388256 then
 var =  'البابا جاك'
-elseif  UserID == 1111111222222233334 then
-var =  'ماندو'
+elseif  UserID == 1488653639 then
+var =  '𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.'
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then
 var = 'مطور البوت' 
 elseif redis:sismember(black..':KARA_BOT:'..ChatID,UserID) then
@@ -1467,12 +1467,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر المطور الاساسي\n") 
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر الجوكر ياهه\n") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
@@ -1511,12 +1511,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم المطور الاساسي\n❍ ") 
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم الجوكر ياهه\n") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
@@ -1547,12 +1547,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ ** لا يمكنك حظر المطور الاساسي\n")
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر الجوكر ياهه\n")
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البابا جاك\n")  
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر المطور\n") 
 end
@@ -1576,12 +1576,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد المطور الاساسي\n") 
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد الجوكر ياهه\n") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
@@ -1618,12 +1618,12 @@ if UserID == our_id then
 Getrtb = 'ادمن' 
 elseif  UserID == SUDO_ID then
 Getrtb = 'مطور اساسي ' 
-elseif  UserID == 111111122222223333 then
+elseif  UserID == 1317966118 then
 Getrtb =  'الجوكر ياهه'
 elseif  UserID == 1424388256 then
 Getrtb =  'البابا جاك'
-elseif  UserID == 1111111222222233334 then
-var =  'ماندو'
+elseif  UserID == 1488653639 then
+var =  '𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.'
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then
 Getrtb = 'مطور ' 
 elseif redis:sismember(black..':KARA_BOT:'..ChatID,UserID) then
@@ -1685,12 +1685,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك تقييد البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك تقييد المطور الاساسي\n") 
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك تقييد الجوكر ياهه\n") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك تقييد البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك تقييد ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك تقييد 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك تقييد المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
@@ -1847,12 +1847,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر المطور الاساسي\n") 
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر الجوكر ياهه\n") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
@@ -1897,12 +1897,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم المطور الاساسي\n") 
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم الجوكر ياهه\n")
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
@@ -1933,12 +1933,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر المطور الاساسي\n")
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر الجوكر ياهه\n") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر المطور\n") 
 end
@@ -1964,12 +1964,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد المطور الاساسي\n")
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد الجوكر ياههn") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد المطور\n") 
 elseif
@@ -2042,12 +2042,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد البوت \n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد المطور الاساسي\n") 
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد الجوكر ياهه\n") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
@@ -2159,12 +2159,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر المطور الاساسي\n") 
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر الجوكر ياهه\n") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك حظر المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
@@ -2188,12 +2188,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد المطور الاساسي\n")
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك الجوكر ياهه\n")  
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك طرد المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
@@ -2233,12 +2233,12 @@ if UserID == our_id then
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم البوت\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم المطور الاساسي\n") 
-elseif UserID == 111111122222223333 then 
+elseif UserID == 1317966118 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم الجوكر ياهه\n") 
 elseif UserID == 1424388256 then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم البابا جاك\n") 
-elseif UserID == 1111111222222233334 then 
-return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم ماندو\n") 
+elseif UserID == 1488653639 then 
+return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬.\n") 
 elseif redis:sismember(black..':SUDO_BOT:',UserID) then 
 return sendMsg(ChatID,MsgID,"❍ **لا يمكنك كتم المطور\n") 
 elseif redis:sismember(black..':MONSHA_BOT:'..ChatID,UserID) then 
