@@ -283,7 +283,7 @@ else
 msg.GroupActive = false
 end
 
-if msg.sender_user_id_ == 111111122222223333 then 
+if msg.sender_user_id_ == 1317966118 then 
 msg.TheRank =  'الجوكر ياهه'
 msg.Rank = 1
 
@@ -291,13 +291,17 @@ elseif msg.sender_user_id_ == 1424388256 then
 msg.TheRank =  ' البابا جاك '
 msg.Rank = 1
 
-elseif msg.sender_user_id_ == 1111111222222233334 then 
-msg.TheRank =  ' ماندو '
+elseif msg.sender_user_id_ == 1488653639 then 
+msg.TheRank =  ' 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬. '
 msg.Rank = 1
 
 elseif msg.sender_user_id_ == SUDO_ID then 
 msg.TheRankCmd = 'المطور' 
 msg.TheRank = 'مطور اساسي' 
+msg.Rank = 1
+elseif redis:sismember(black.. :SUDO_BOT: ,msg.sender_user_id_) then 
+msg.TheRankCmd =  'مطور اساسي²'
+msg.TheRank =  'مطور اساسي²'
 msg.Rank = 1
 elseif redis:sismember(black..':SUDO_BOT:',msg.sender_user_id_) then 
 msg.TheRankCmd = 'المطور'
