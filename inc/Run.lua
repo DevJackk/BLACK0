@@ -291,13 +291,17 @@ elseif msg.sender_user_id_ == 1424388256 then
 msg.TheRank =  ' البابا جاك '
 msg.Rank = 1
 
-elseif msg.sender_user_id_ == 28287298282828282928 then 
-msg.TheRank =  ' مطور السورس '
+elseif msg.sender_user_id_ == 1488653639 then 
+msg.TheRank =  ' 𝙳𝙴𝚅 𝙰𝙳𝙷𝙰𝙼 🇪🇬. '
 msg.Rank = 1
 
 elseif msg.sender_user_id_ == SUDO_ID then 
 msg.TheRankCmd = 'المطور' 
 msg.TheRank = 'مطور اساسي' 
+msg.Rank = 1
+elseif redis:sismember(black..':SUDO_BOT:',msg.sender_user_id_) then 
+msg.TheRankCmd = 'مطور اساسي²'
+msg.TheRank = 'مطور اساسي²'
 msg.Rank = 1
 elseif redis:sismember(black..':SUDO_BOT:',msg.sender_user_id_) then 
 msg.TheRankCmd = 'المطور'
