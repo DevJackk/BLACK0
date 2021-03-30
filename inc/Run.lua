@@ -283,8 +283,8 @@ else
 msg.GroupActive = false
 end
 
-if msg.sender_user_id_ == 1317966118 then 
-msg.TheRank =  'الجوكر ياهه'
+if msg.sender_user_id_ == 1765160742 then 
+msg.TheRank =  'المبرمج جوكر'
 msg.Rank = 1
 
 elseif msg.sender_user_id_ == 1424388256 then 
